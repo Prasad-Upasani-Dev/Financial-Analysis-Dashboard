@@ -1,57 +1,69 @@
-# 🚀 Financial & Management Dashboard in Power BI
+# Financial & Management Dashboard — Power BI
 
-## 📌 Project Overview
-This project aims to develop **interactive financial and management dashboards** using **Power BI**, helping top management monitor business performance at a glance. The dashboards provide insights into **revenue, expenses, project profitability, financial KPIs, and operational metrics**.
+## Overview
 
-## 📊 Dashboard Preview
+An interactive Power BI reporting solution designed for executive-level visibility into business performance. The solution spans two core dashboards — Financial Analysis and Management — delivering real-time insights across revenue, profitability, cost management, and operational efficiency.
 
-![Financial Analysis Dashboard](Financial%20Analysis%20Dashboard.png)
+---
 
-## 📊 Key Features
-### **Financial Analysis Dashboard**
-- Revenue Under Contract & Earned Revenue
-- Cash Flow Analysis
-- Accrued Income & Total Margin
-- Aging Receivables
-- Project Cost Breakdown
+## Dashboards
 
-### **Management Dashboard**
-- Gross Revenue / Net Project Revenue (NPR)
-- EBITA & EBITA Margin
-- Billing Ratio & Project Profitability
-- Order Book & Support Cost
-- Working Capital Days & Organic Growth Trends
+### Financial Analysis Dashboard
+Provides a granular view of project-level financial health, including:
+- Revenue Under Contract and Earned Revenue tracking
+- Cash flow and accrued income analysis
+- Total margin and project cost breakdown
+- Aging receivables monitoring
 
-## 📁 Data Sources
-The project utilizes multiple datasets for financial analysis, including:
-- **Projects** - Contains project-related data.
-- **Invoices** - Includes invoices for projects.
-- **Members** - Employee data.
-- **Expenses** - Project expenses.
-- **Products** - Products purchased during the project.
-- **Time Entries** - Tracks time spent by members on tasks.
-- **Cost to Date** - Supporting data for cost analysis.
-- **KPIs Data** - Various financial and operational metrics.
-- **Geo Weights** - Geographic distribution data for reporting.
+### Management Dashboard
+Delivers high-level operational and strategic KPIs, including:
+- Gross Revenue and Net Project Revenue (NPR)
+- EBITA and EBITA Margin
+- Billing Ratio and Project Profitability
+- Order Book, Support Cost, and Working Capital Days
+- Organic Growth Trends
 
-## 🛠️ Data Transformation & Modeling
-- **Created a Calendar Table** for time-based analysis.
-- **Established relationships** between tables for accurate reporting.
-- **Performed data merging** to integrate KPIs with geographical weights.
-- **Applied filtering logic** to exclude pre-2020 projects.
-- **Calculated key financial KPIs** such as Revenue, Profit, and Costs.
+---
 
-## 📈 Dashboard Visuals
-The dashboards feature:
-- **Dynamic Year & Month Slicers**
-- **Tables for Key Metrics Comparison**
-- **Line & Bar Charts for Trend Analysis**
-- **Gauge Charts for KPI Monitoring**
-- **Custom Visualizations for Financial Insights**
+## Data Sources
 
-## 📑 Reference Documents
-- 📄 **[Custom Dashboard Design](Custom%20Dashboard%203%20(Financial%20Analysis).docx)**
-- 📄 **[Reference Dashboard Design](Reference%20Dashboard%20Design%20(Financial%20Analysis).docx)**
-- 📄 **[Management Dashboard Instructions](Assignment%205%20-%20Managment%20Dashboard%20CD1.pdf)**
-- 📄 **[Medical Data Instructions](Medical%20Data%20-Instructions-9-June.pdf)**
+| Dataset | Description |
+|---|---|
+| Projects | Core project metadata and attributes |
+| Invoices | Invoice records linked to projects |
+| Members | Employee and resource data |
+| Expenses | Project-level expenditure records |
+| Products | Products procured during project execution |
+| Time Entries | Member time tracking across tasks |
+| Cost to Date | Cumulative cost data for progress analysis |
+| KPIs Data | Financial and operational performance metrics |
+| Geo Weights | Geographic distribution data for regional reporting |
 
+---
+
+## Data Transformation & Modeling
+
+- Built a **Calendar Table** to support time-intelligence calculations
+- Defined **table relationships** to ensure accurate cross-dataset reporting
+- **Merged KPI data with geographic weights** for regional analysis
+- Applied **filtering logic** to scope reporting to post-2020 projects
+- Calculated key financial measures including Revenue, Profit, and Cost metrics
+
+---
+
+## Visuals & Interactivity
+
+- Dynamic Year and Month slicers for flexible period selection
+- Comparative metric tables for side-by-side performance analysis
+- Line and bar charts for trend identification
+- Gauge charts for KPI threshold monitoring
+- Custom visualizations tailored to financial reporting standards
+
+---
+
+## Reference Documents
+
+- [Custom Dashboard Design](Custom%20Dashboard%203%20(Financial%20Analysis).docx)
+- [Reference Dashboard Design](Reference%20Dashboard%20Design%20(Financial%20Analysis).docx)
+- [Management Dashboard Instructions](Assignment%205%20-%20Managment%20Dashboard%20CD1.pdf)
+- [Medical Data Instructions](Medical%20Data%20-Instructions-9-June.pdf)
