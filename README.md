@@ -1,8 +1,8 @@
-# Financial & Management Dashboard — Power BI
+# Financial & Management Dashboard - Power BI
 
 ## Overview
 
-An interactive Power BI reporting solution designed for executive-level visibility into business performance. The solution spans two core dashboards — Financial Analysis and Management — delivering real-time insights across revenue, profitability, cost management, and operational efficiency.
+An interactive Power BI reporting solution designed for executive-level visibility into business performance. The solution spans two core dashboards - Financial Analysis and Management - delivering real-time insights across revenue, profitability, cost management, and operational efficiency.
 
 ---
 
